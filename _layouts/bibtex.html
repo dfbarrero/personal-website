@@ -1,0 +1,67 @@
+---
+---
+
+{{reference}}
+
+{% if entry.url %}
+   <a href="{{entry.url}}" target="_blank">Publisher</a>.
+{% endif %}
+
+{% if entry.doi %}
+   <a href="http://dx.doi.org/{{entry.doi}}" target="_blank">DOI</a>.
+{% endif %}
+
+    {% if entry.abstract %}
+	<i><a id="{{entry.key}}-abstract-a">Abstract</a></i>.
+
+    <script>
+    $(document).ready(function() {
+        $("#{{entry.key}}-abstract-a").click(function() {
+            $('#{{entry.key}}-abstract').toggle('slow');
+        });
+    })
+    </script>
+
+    {% endif %}
+
+	<i><a id="{{entry.key}}-bibtex-a">BibTeX</a></i>.
+
+<div id="{{entry.key}}-materials">
+  <ul class="nav nav-pills">
+
+    <div id="{{entry.key}}-bibtex" style="display: none;">
+    <pre class="collapse">{{entry.bibtex}}</pre>
+    </div>
+
+    <script>
+    $(document).ready(function() {
+        $("#{{entry.key}}-bibtex-a").click(function() {
+            $('#{{entry.key}}-bibtex').toggle('slow');
+        });
+    })
+    </script>
+
+
+    {% if entry.webpdf %}
+	<a href="{{site.url}}/{{site.baseurl}}/{{entry.webpdf}}" target="_blank">→ PDF</a><br>
+	{% endif %}
+
+    {% if entry.dataset %}
+	<a href="{{site.url}}/{{site.baseurl}}/{{entry.dataset}}" target="_blank">→ Dataset</a><br>
+	{% endif %}
+
+    {% if entry.slides %}
+	<a href="{{site.url}}/{{site.baseurl}}/{{entry.slides}}" target="_blank">→ Slides</a><br>
+	{% endif %}
+
+    {% if entry.poster %}
+	<a href="{{site.url}}/{{site.baseurl}}/{{entry.poster}}" target="_blank">→ Poster</a><br>
+    {% endif %}
+
+  </ul>
+
+  {% if entry.abstract %}
+  <p id="{{entry.key}}-abstract" class="collapse" style="display: none;">{{entry.abstract}}</p>
+  {% endif %}
+
+</div>

@@ -1,0 +1,11 @@
+main:
+  - title: "Publications"
+    url: /publications/
+  - title: "Projects"
+    url: /projects/
+  - title: "Teaching"
+    url: /teaching/
+  - title: "Videogames"
+    url: /videogames/
+  - title: "Notes"
+    url: /notes/
