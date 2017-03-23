@@ -140,6 +140,7 @@ exclude:
   - /docs # ignore Minimal Mistakes /docs
   - /test # ignore Minimal Mistakes /test
   - _drafts
+  - _tikz_tmp
 keep_files:
   - .git
   - .svn
