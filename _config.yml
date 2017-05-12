@@ -190,6 +190,7 @@ gems:
   - jemoji
   - jekyll/scholar
   - jekyll-youtube
+  - jekyll-postfiles
 
 # mimic GitHub Pages with --safe
 whitelist:
@@ -246,7 +247,7 @@ defaults:
     values:
       layout: single
       # categories: notes
-      permalink: /notes/:path/
+      permalink: /notes/:year/:month/:title/
       author_profile: true
       read_time: true
       comments: false

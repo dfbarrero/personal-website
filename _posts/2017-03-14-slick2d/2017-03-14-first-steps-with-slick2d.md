@@ -1,6 +1,6 @@
 ---
 title:  "First steps with Slick2D"
-date:   2017-02-17 15:33:25 +0100
+date:   2017-03-14 15:33:25 +0100
 #tags: jekyll update
 ---
 
