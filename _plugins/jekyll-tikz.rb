@@ -41,6 +41,7 @@ module Jekyll
         @header = <<-'END'
         \documentclass{standalone}
         \usepackage{tikz}
+        \usepackage{pgfplots}
         END
         
         if libraries.length != 0
