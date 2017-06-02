@@ -141,6 +141,10 @@ exclude:
   - /test # ignore Minimal Mistakes /test
   - _drafts
   - _tikz_tmp
+  - _posts/**/*.jpg
+  - _posts/**/*.png
+  - _posts/**/*.csv
+  - _posts/**/*.R
 keep_files:
   - .git
   - .svn

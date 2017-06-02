@@ -1,0 +1,19 @@
+<IfModule mod_rewrite.c>
+
+# Turn mod_rewrite on
+#Options +FollowSymlinks
+RewriteEngine On
+#RewriteBase /~david/
+
+RewriteRule ^(.*)cec2017$ /~david/assets/datasets/cec2017.zip
+RewriteRule ^(.*)ideal2016$ /~david/assets/datasets/ideal2016.zip
+RewriteRule ^(.*)soco2015$ /~david/assets/datasets/soco2015.zip
+RewriteRule ^(.*)gpem2014$ /~david/assets/datasets/gpem2014.zip
+RewriteRule ^(.*)es2012$ /~david/assets/datasets/es2012.zip
+RewriteRule ^(.*)cec2011$ /~david/assets/datasets/cec2011.zip
+RewriteRule ^(.*)eurogp2011$ /~david/assets/datasets/eurogp2011.zip
+
+##Redirect /~david/es2012 https://atc1.aut.uah.es/~david/assets/datasets/es2012.zip
+
+</IfModule>
+
