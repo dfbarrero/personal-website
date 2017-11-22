@@ -145,6 +145,7 @@ exclude:
   - _posts/**/*.png
   - _posts/**/*.csv
   - _posts/**/*.R
+  - _posts/**/*.rds
 keep_files:
   - .git
   - .svn
