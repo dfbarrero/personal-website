@@ -43,19 +43,35 @@
 
 
     {% if entry.webpdf %}
-	<a href="{{site.url}}/{{site.baseurl}}/{{entry.webpdf}}" target="_blank">→ PDF</a><br>
+        {% if entry.webpdf contains '://' %}
+	    <a href="{{entry.webpdf}}" target="_blank">→ PDF</a><br>  
+        {% else %}
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.webpdf}}" target="_blank">→ PDF</a><br>   
+	    {% endif %}
 	{% endif %}
 
     {% if entry.dataset %}
-	<a href="{{site.url}}/{{site.baseurl}}/{{entry.dataset}}" target="_blank">→ Dataset</a><br>
+        {% if entry.dataset contains '://' %}
+	    <a href="{{entry.dataset}}" target="_blank">→ Dataset</a><br>
+        {% else %}
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.dataset}}" target="_blank">→ Dataset</a><br>
+	    {% endif %}
 	{% endif %}
 
     {% if entry.slides %}
-	<a href="{{site.url}}/{{site.baseurl}}/{{entry.slides}}" target="_blank">→ Slides</a><br>
+        {% if entry.slides contains '://' %}
+	    <a href="{{entry.slides}}" target="_blank">→ Slides</a><br>
+        {% else %}
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.slides}}" target="_blank">→ Slides</a><br>
+	    {% endif %}
 	{% endif %}
 
     {% if entry.poster %}
-	<a href="{{site.url}}/{{site.baseurl}}/{{entry.poster}}" target="_blank">→ Poster</a><br>
+        {% if entry.webpdf contains '://' %}
+	    <a href="{{entry.poster}}" target="_blank">→ Poster</a><br>
+        {% else %}
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.poster}}" target="_blank">→ Poster</a><br>
+	    {% endif %}
     {% endif %}
 
   </ul>
