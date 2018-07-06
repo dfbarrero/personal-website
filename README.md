@@ -13,6 +13,9 @@ Source code of my personal web site, available on http://atc1.aut.uah.es/~david.
 5. Customize the home page editting _layouts/home.html.
 5. Add any new section you would need. Copy any file in _pages, and use it as template to edit your own content. Insert the navigation item in _data/navigation.yml
 
+Test site with `bundle exec jekyll serve` and build site with `bundle exec jekyll build`.
+
+
 There are some images in assets/imgs you can use as headers. Use them at your convenience.
 
 # Contributors
