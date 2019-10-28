@@ -23,7 +23,7 @@ GEM
       csl (~> 1.0)
     faraday (0.11.0)
       multipart-post (>= 1.2, < 3)
-    ffi (1.9.17)
+    ffi (1.11.1)
     forwardable-extended (2.6.0)
     gemoji (3.0.0)
     html-pipeline (2.5.0)
@@ -46,6 +46,7 @@ GEM
     jekyll-gist (1.4.0)
       octokit (~> 4.2)
     jekyll-paginate (1.1.0)
+    jekyll-postfiles (2.1.1)
     jekyll-sass-converter (1.5.0)
       sass (~> 3.4)
     jekyll-scholar (5.9.1)
@@ -73,7 +74,7 @@ GEM
       rb-fsevent (~> 0.9, >= 0.9.4)
       rb-inotify (~> 0.9, >= 0.9.7)
     mercenary (0.3.6)
-    mini_portile2 (2.1.0)
+    mini_portile2 (2.4.0)
     minima (2.1.0)
       jekyll (~> 3.3)
     minimal-mistakes-jekyll (4.2.1)
@@ -86,8 +87,8 @@ GEM
     minitest (5.10.1)
     multipart-post (2.0.0)
     namae (0.11.3)
-    nokogiri (1.6.8.1)
-      mini_portile2 (~> 2.1.0)
+    nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
     octokit (4.6.2)
       sawyer (~> 0.8.0, >= 0.5.3)
     pathutil (0.14.0)
@@ -113,10 +114,12 @@ PLATFORMS
 DEPENDENCIES
   jekyll (= 3.4.0)
   jekyll-feed (~> 0.6)
+  jekyll-postfiles
   jekyll-scholar
   jekyll-youtube
   minima (~> 2.0)
   minimal-mistakes-jekyll
+  nokogiri (>= 1.10.4)
   tzinfo-data
 
 RUBY VERSION
