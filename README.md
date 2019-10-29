@@ -1,5 +1,16 @@
 # personal-website
+
 Source code of my personal web site, available on http://atc1.aut.uah.es/~david.
+
+# Install
+
+Install [Jekyll](https://jekyllrb.com/docs/installation/ubuntu/). You may need to reinstall bundler:
+
+``` Bash
+$ cd /path/to/my/project/
+$ gem install bundler -v 1.17.3
+$ bundle install
+```
 
 # Usage
 1. Edit the _config.yml file to customize its settings.
@@ -19,4 +30,5 @@ Test site with `bundle exec jekyll serve` and build site with `bundle exec jekyl
 There are some images in assets/imgs you can use as headers. Use them at your convenience.
 
 # Contributors
+
 This website has been made with Jekyll and the [minimal-mistakes](https://github.com/mmistakes/minimal-mistakes) theme.
