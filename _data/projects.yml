@@ -1,3 +1,20 @@
+- name: Servidor de altas prestaciones para cómputo intensivo en aplicaciones de Big Data
+  funding: University of Alcalá (UAH INFR. B 2020-006)
+  participants: University of Alcalá
+  pi: David F. Barrero, PhD
+  grant: 26.686,22 euros
+  years: 2020
+  type: National
+
+- name: Placement Opportunities With Entrepreneurial Reach
+  funding: Erasmus+ Key Action 2 - Knowledge Alliance project. (Ref. 601187-EPP-1-2018-1-LU-EPPKA2-KA (Call EAC/A05/201))
+  participants: The European University Foundation - Campus Europae (coordinator), Technoport S.A., Universidad de Alcalá, Asociacion Tetuan Valley, Innovaatio Oy Uusi Tehdas, Aristotle University of Thessaloniki, Innovation Zone, Politechnika Łódzka.
+  pi: María D. R-Moreno, PhD
+  grant: 987.195 euros (54.007,50 euros UAH)
+  years: 15/11/2018 - 14/11/2020
+  url: https://power.cti.p.lodz.pl/
+  type: International
+
 - name: Detección automática de emergencias basada en patrones de conducta en personas dependientes
   funding: Universidad de Alcalá (2015/00297/001)
   participants: UAH
