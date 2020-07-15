@@ -15,6 +15,32 @@
   url: https://power.cti.p.lodz.pl/
   type: International
 
+- name: Utilización de redes neuronales como método para mantenimiento basado en la condición en los buques de la armada (SOPRENE)
+  funding: Indra Sistemas, S.A. (for Armada Española)
+  participants: Indra, UAH and UdC
+  pi: David F. Barrero, PhD and María D. R-Moreno, PhD
+  grant: 70.000 euros
+  years: 2018 - 2020
+  type: National
+
+- name: Detección de defectos de fabricación en perfiles de PVC
+  funding: Profine Iberia S.A.U.
+  participants: Profine Iberia and UAH
+  pi: María D. R-Moreno, PhD; Pablo Muñóz, PhD; David F. Barrero, PhD
+  grant: 20.000 euros
+  years: 2016-2017
+  type: National
+
+- name: Detección de caídas mediante acelerómetro triaxial en entorno de atención remota a la depenciencia
+  funding: Universidad de Alcalá (2016/00351/001)
+  participants: UAH
+  pi: David F. Barrero, PhD
+  grant: 3.000 euros
+  years: 2015-2016
+  type: National
+
+
+
 - name: Detección automática de emergencias basada en patrones de conducta en personas dependientes
   funding: Universidad de Alcalá (2015/00297/001)
   participants: UAH
