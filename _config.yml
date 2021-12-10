@@ -12,10 +12,10 @@ locale                   : "en"
 title                    : "David's website"
 title_separator          : "-"
 name                     : "David F. Barrero"
-description              : ""
+description              : "Assistant professor"
 url                      : "https://atc1.aut.uah.es" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "/~david" # the subpath of your site, e.g. "/blog"
-repository               : "dfbarrero/personal-website"# GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "dfbarrero/personal-website" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 # breadcrumbs            : false # true, false (default)
 words_per_minute         : 200
@@ -72,18 +72,17 @@ social:
 
 # Analytics
 analytics:
-  provider               : google # false (default), "google", "google-universal", "custom"
+  provider               : #google # false (default), "google", "google-universal", "custom"
   google:
     tracking_id          : UA-1657543-1
-
 
 # Site Author
 author:
   name             : "David F. Barrero"
   avatar           : "assets/img/dfbarrero.jpg" #http://atc1.aut.uah.es/~david/images/dfbarrero.jpg # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Associate professor, University of Alcalá"
+  bio              : "Associated professor, University of Alcalá"
   location         : 
-  email            : david YOUKNOW aut uah es
+  email            : david fernandezb YOUKNOW aut uah es
   uri              :
   bitbucket        :
   codepen          :
@@ -107,6 +106,7 @@ author:
   weibo            :
   xing             :
   youtube          :
+
 
 
 # Reading Files
@@ -270,6 +270,7 @@ defaults:
 
 # Jekyll-scholar parameters
 scholar:
+  bibliography_template: bibtex
   style: assets/bibliography/ieee-with-url.csl
   locale: en
 

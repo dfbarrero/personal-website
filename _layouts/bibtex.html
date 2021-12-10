@@ -3,28 +3,28 @@
 
 {{reference}}
 
+
 {% if entry.url %}
-   <a href="{{entry.url}}" target="_blank">Publisher</a>.
+   <a href="{{entry.url}}" style="text-decoration: none;" target="_blank">Publisher</a>.
 {% endif %}
 
 {% if entry.doi %}
-   <a href="http://dx.doi.org/{{entry.doi}}" target="_blank">DOI</a>.
+   <a href="http://dx.doi.org/{{entry.doi}}" style="text-decoration: none;" target="_blank">DOI</a>.
 {% endif %}
 
-    {% if entry.abstract %}
-	<i><a id="{{entry.key}}-abstract-a">Abstract</a></i>.
+{% if entry.abstract %}
+<i><a id="{{entry.key}}-abstract-a">Abstract</a></i>.
 
-    <script>
-    $(document).ready(function() {
-        $("#{{entry.key}}-abstract-a").click(function() {
-            $('#{{entry.key}}-abstract').toggle('slow');
-        });
-    })
-    </script>
-
+  	<script>
+    	$(document).ready(function() {
+        	$("#{{entry.key}}-abstract-a").click(function() {
+            	$('#{{entry.key}}-abstract').toggle('slow');
+        	});
+    	})
+    	</script>
     {% endif %}
 
-	<i><a id="{{entry.key}}-bibtex-a">BibTeX</a></i>.
+<i><a id="{{entry.key}}-bibtex-a">BibTeX</a></i>.
 
 <div id="{{entry.key}}-materials">
   <ul class="nav nav-pills">
@@ -44,33 +44,33 @@
 
     {% if entry.webpdf %}
         {% if entry.webpdf contains '://' %}
-	    <a href="{{entry.webpdf}}" target="_blank">→ PDF</a><br>  
+	    <a href="{{entry.webpdf}}" style="text-decoration: none;" target="_blank">→ PDF</a><br>  
         {% else %}
-	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.webpdf}}" target="_blank">→ PDF</a><br>   
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.webpdf}}" style="text-decoration: none;" target="_blank">→ PDF</a><br>   
 	    {% endif %}
 	{% endif %}
 
     {% if entry.dataset %}
         {% if entry.dataset contains '://' %}
-	    <a href="{{entry.dataset}}" target="_blank">→ Dataset</a><br>
+	    <a href="{{entry.dataset}}" style="text-decoration: none;" target="_blank">→ Dataset</a><br>
         {% else %}
-	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.dataset}}" target="_blank">→ Dataset</a><br>
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.dataset}}" style="text-decoration: none;" target="_blank">→ Dataset</a><br>
 	    {% endif %}
 	{% endif %}
 
     {% if entry.slides %}
         {% if entry.slides contains '://' %}
-	    <a href="{{entry.slides}}" target="_blank">→ Slides</a><br>
+	    <a href="{{entry.slides}}" style="text-decoration: none;"  target="_blank">→ Slides</a><br>
         {% else %}
-	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.slides}}" target="_blank">→ Slides</a><br>
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.slides}}" style="text-decoration: none;" target="_blank">→ Slides</a><br>
 	    {% endif %}
 	{% endif %}
 
     {% if entry.poster %}
         {% if entry.webpdf contains '://' %}
-	    <a href="{{entry.poster}}" target="_blank">→ Poster</a><br>
+	    <a href="{{entry.poster}}" style="text-decoration: none;" target="_blank">→ Poster</a><br>
         {% else %}
-	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.poster}}" target="_blank">→ Poster</a><br>
+	    <a href="{{site.url}}/{{site.baseurl}}/{{entry.poster}}" style="text-decoration: none;" target="_blank">→ Poster</a><br>
 	    {% endif %}
     {% endif %}
 
