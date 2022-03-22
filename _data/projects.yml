@@ -1,3 +1,12 @@
+- name: Escuela de Verano Latinoamericana de Aprendizaje Profundo
+  funding: Universidad de Alcalá (PI2022/EXP-14)
+  participants: Universidad de Alcalá (Spain), Instituto Tecnológico Autónomo de México (Mexico), Universidad Técnica Particular de Loja (Ecuador), Universidad de los Andes (Venezuela), UEFIT (Colombia), Universidad Francisco de Paula Santander (Colombia), Universidad Católica San Pablo (Peru) and Universidad Nacional de Asunción (Paraguay)
+  pi: Dr. David F. Barrero
+  grant: 4.190 euros
+  years: 2022
+  url: https://isg-uah.github.io/elap2022/
+  type: International
+
 - name: Mejora de la gestión de recursos hospitalarios mediante la predicción de la demanda con Aprendizaje Automático y Planificación
   funding: Junta de Comunidades de Castilla-La Mancha (SBPLY/19/180501/000024)
   participants: Universidad de Alcalá (Computer Engineering and Nursery and Physiotherapy Departments) and Hospital Universitario de Guadalajara
